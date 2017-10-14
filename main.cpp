@@ -10,6 +10,7 @@ int main(){
     int opt;
     do{
         imprime_menu();
+        //Comentário
         opt = solicita_opcao();
         redireciona_para_opcao(opt);
     }while(opt);

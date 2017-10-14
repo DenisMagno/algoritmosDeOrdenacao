@@ -1,7 +1,2 @@
-//TODAS AN FUN합ES SAO VOID, TRABALHAR COM O VETOR PASSADO
-
-//FUN플O DE ORDENA플O
-void quickSort(int *V, int left, int right);
-//FUN플O DE ORDENA플O
-
-int particiona (int *V, int inicio, int fim);
+void quickSort(int *v, int left, int right);
+int particiona (int *v, int inicio, int fim);
