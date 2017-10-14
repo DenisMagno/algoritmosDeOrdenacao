@@ -32,6 +32,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algoritmosOrdenacao/bubbleSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/bubbleSort.h" />
+		<Unit filename="algoritmosOrdenacao/heapSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/heapSort.h" />
+		<Unit filename="algoritmosOrdenacao/insertionSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/insertionSort.h" />
+		<Unit filename="algoritmosOrdenacao/mergeSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/mergeSort.h" />
+		<Unit filename="algoritmosOrdenacao/quickSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/quickSort.h" />
+		<Unit filename="algoritmosOrdenacao/selectionSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/selectionSort.h" />
+		<Unit filename="algoritmosOrdenacao/shellSort.cpp" />
+		<Unit filename="algoritmosOrdenacao/shellSort.h" />
 		<Unit filename="libPrincipal.cpp" />
 		<Unit filename="libPrincipal.h" />
 		<Unit filename="main.cpp" />

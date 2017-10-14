@@ -734,7 +734,7 @@ void analisaAlgoritmos(int tamanho){
     _selection = analisaOrdenadoCSelection(tamanho);
     printf("SelectionSort: \t%f ms\n",_selection);
 
-    /_shell = analisaOrdenadoCShell(tamanho);
+    _shell = analisaOrdenadoCShell(tamanho);
     printf("ShellSort: \t%f ms\n",_shell);
 
     _merge = analisaOrdenadoCMerge(tamanho);

@@ -131,3 +131,72 @@
 	<locale.h>
 	"libPrincipal.h"
 
+1508008784 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\libprincipal.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/time.h>
+	"libPrincipal.h"
+	"algoritmosOrdenacao/heapSort.h"
+	"algoritmosOrdenacao/bubbleSort.h"
+	"algoritmosOrdenacao/insertionSort.h"
+	"algoritmosOrdenacao/quickSort.h"
+	"algoritmosOrdenacao/selectionSort.h"
+	"algoritmosOrdenacao/shellSort.h"
+	"algoritmosOrdenacao/mergeSort.h"
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\libprincipal.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\heapsort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\bubblesort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\insertionsort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\selectionsort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\shellsort.h
+
+1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\mergesort.h
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"libPrincipal.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\bubblesort.cpp
+	<stdio.h>
+	<stdlib.h>
+	"bubbleSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\heapsort.cpp
+	"heapSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\insertionsort.cpp
+	<stdio.h>
+	<stdlib.h>
+	"insertionSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\mergesort.cpp
+	<stdlib.h>
+	<stdio.h>
+	"mergeSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.cpp
+	<stdio.h>
+	<stdlib.h>
+	"quickSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\selectionsort.cpp
+	<stdio.h>
+	<stdlib.h>
+	"selectionSort.h"
+
+1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\shellsort.cpp
+	<stdio.h>
+	<stdlib.h>
+	"shellSort.h"
+
