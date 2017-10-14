@@ -709,75 +709,75 @@ void analisaAlgoritmos(int tamanho){
 
     system("cls");
     printf("Análise com vetor de elementos inseridos randômicamente\n\n");
-    printf("ALGORITMOS \t TEMPO(ms)\n");
+    printf("ALGORITMOS \t TEMPO MÉDIO(ms)\n");
     double _heap = analisaHeap(tamanho);
-    printf("HeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%.4f ms\n",_heap);
 
     double _bubble = analisaBubble(tamanho);
-    printf("BubbleSort: \t%f ms\n",_bubble);
+    printf("BubbleSort: \t%.4f ms\n",_bubble);
 
     double _insertion = analisaInsertion(tamanho);
-    printf("InsertionSort: \t%f ms\n",_insertion);
+    printf("InsertionSort: \t%.4f ms\n",_insertion);
 
     double _quick = analisaQuick(tamanho);
-    printf("QuickSort: \t%f ms\n",_quick);
+    printf("QuickSort: \t%.4f ms\n",_quick);
 
     double _selection = analisaSelection(tamanho);
-    printf("SelectionSort: \t%f ms\n",_selection);
+    printf("SelectionSort: \t%.4f ms\n",_selection);
 
     double _shell = analisaShell(tamanho);
-    printf("ShellSort: \t%f ms\n",_shell);
+    printf("ShellSort: \t%.4f ms\n",_shell);
 
     double _merge = analisaMerge(tamanho);
-    printf("MergeSort: \t%f ms\n",_merge);
+    printf("MergeSort: \t%.4f ms\n",_merge);
 
     printf("\n----------------------------------------------------------------\n\n");
 
     printf("Análise com vetor de elementos já ordenados em ordem crescente\n\n");
     printf("ALGORITMOS \t TEMPO(ms)\n");
     _heap = analisaOrdenadoCHeap(tamanho);
-    printf("HeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%.4f ms\n",_heap);
 
     _bubble = analisaOrdenadoCBubble(tamanho);
-    printf("BubbleSort: \t%f ms\n",_bubble);
+    printf("BubbleSort: \t%.4f ms\n",_bubble);
 
     _insertion = analisaOrdenadoCInsertion(tamanho);
-    printf("InsertionSort: \t%f ms\n",_insertion);
+    printf("InsertionSort: \t%.4f ms\n",_insertion);
 
     /*_quick = analisaOrdenadoCQuick(tamanho);
-    printf("QuickSort: \t%f ms\n",_quick);
+    printf("QuickSort: \t%.4f ms\n",_quick);*/
 
     _selection = analisaOrdenadoCSelection(tamanho);
-    printf("SelectionSort: \t%f ms\n",_selection);
+    printf("SelectionSort: \t%.4f ms\n",_selection);
 
     _shell = analisaOrdenadoCShell(tamanho);
-    printf("ShellSort: \t%f ms\n",_shell);
+    printf("ShellSort: \t%.4f ms\n",_shell);
 
     _merge = analisaOrdenadoCMerge(tamanho);
-    printf("MergeSort: \t%f ms\n",_merge);*/
+    printf("MergeSort: \t%.4f ms\n",_merge);
 
     printf("\n----------------------------------------------------------------\n\n");
 
     printf("Análise com vetor de elementos já ordenados em ordem decrescente\n\n");
     printf("ALGORITMOS \t TEMPO(ms)\n");
     _heap = analisaOrdenadoDHeap(tamanho);
-    printf("HeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%.4f ms\n",_heap);
 
     _bubble = analisaOrdenadoDBubble(tamanho);
-    printf("BubbleSort: \t%f ms\n",_bubble);
+    printf("BubbleSort: \t%.4f ms\n",_bubble);
 
     _insertion = analisaOrdenadoDInsertion(tamanho);
-    printf("InsertionSort: \t%f ms\n",_insertion);
+    printf("InsertionSort: \t%.4f ms\n",_insertion);
 
     /*_quick = analisaOrdenadoDQuick(tamanho);
-    printf("QuickSort: \t%f ms\n",_quick);
+    printf("QuickSort: \t%.4f ms\n",_quick);*/
 
     _selection = analisaOrdenadoDSelection(tamanho);
-    printf("SelectionSort: \t%f ms\n",_selection);
+    printf("SelectionSort: \t%.4f ms\n",_selection);
 
     _shell = analisaOrdenadoDShell(tamanho);
-    printf("ShellSort: \t%f ms\n",_shell);
+    printf("ShellSort: \t%.4f ms\n",_shell);
 
     _merge = analisaOrdenadoDMerge(tamanho);
-    printf("MergeSort: \t%f ms\n",_merge);*/
+    printf("MergeSort: \t%.4f ms\n",_merge);
 }
