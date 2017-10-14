@@ -49,7 +49,7 @@ void libera_vetor(int *vetor){
 }
 
 void aguarda_enter(){
-    printf("\n\nDigite <enter> para continuar...");
+    printf("\n\nPressione <enter> para continuar...");
     getchar();
     getchar();
 }
@@ -59,7 +59,7 @@ void imprime_menu(){
 
     printf("/___Análise de Algoritmos de Ordenação___\\\n");
     printf("|                                        |\n");
-    printf("|***** DEFINA A QUANTIDADE DO VETOR *****|\n");
+    printf("|*** DEFINA A QUANTIDADE DE ELEMENTOS ***|\n");
     printf("|                                        |\n");
     printf("| 1 - 1000 elementos                     |\n");
     printf("| 2 - 5000 elementos                     |\n");
@@ -124,7 +124,7 @@ void redireciona_para_opcao(int opt){
         break;
 
         case 0:
-            printf("Até mais!");
+            printf("\nAté mais!");
             aguarda_enter();
             exit(1);
         break;
@@ -696,9 +696,22 @@ double analisaOrdenadoDMerge(int tamanho){
 
 void analisaAlgoritmos(int tamanho){
     system("cls");
-    printf("\nAnálise de algoritmos com vetor de %d elementos desordenados randomicamente", tamanho);
+    printf("/__________________________ ATENÇÃO __________________________\\\n\n");
+    printf("  Os dados a seguir são definidos a partir de uma média em\n");
+    printf("milissegundos tirada de 10 análises feitas para cada algoritmo\n");
+    printf("com %d elementos inseridos randômicamente em um vetor. Por\n", tamanho);
+    printf("tanto, os dados podem variar entre as análises.\n\n");
+    printf("  Em alguns casos, o processo de ordenação pode ser mais\n");
+    printf("demorado. Aguarde até que o processo termine para obter o\n");
+    printf("resultado.\n\n");
+    printf("\\------------------------------------------------------------/");
+    aguarda_enter();
+
+    system("cls");
+    printf("Análise com vetor de elementos inseridos randômicamente\n\n");
+    printf("ALGORITMOS \t TEMPO(ms)\n");
     double _heap = analisaHeap(tamanho);
-    printf("\nHeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%f ms\n",_heap);
 
     double _bubble = analisaBubble(tamanho);
     printf("BubbleSort: \t%f ms\n",_bubble);
@@ -718,9 +731,12 @@ void analisaAlgoritmos(int tamanho){
     double _merge = analisaMerge(tamanho);
     printf("MergeSort: \t%f ms\n",_merge);
 
-    printf("\nAnálise de algoritmos com vetor de %d elementos ordenados em ordem crescente", tamanho);
+    printf("\n----------------------------------------------------------------\n\n");
+
+    printf("Análise com vetor de elementos já ordenados em ordem crescente\n\n");
+    printf("ALGORITMOS \t TEMPO(ms)\n");
     _heap = analisaOrdenadoCHeap(tamanho);
-    printf("\nHeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%f ms\n",_heap);
 
     _bubble = analisaOrdenadoCBubble(tamanho);
     printf("BubbleSort: \t%f ms\n",_bubble);
@@ -740,9 +756,12 @@ void analisaAlgoritmos(int tamanho){
     _merge = analisaOrdenadoCMerge(tamanho);
     printf("MergeSort: \t%f ms\n",_merge);*/
 
-    printf("\nAnálise de algoritmos com vetor de %d elementos ordenados em ordem decrescente", tamanho);
+    printf("\n----------------------------------------------------------------\n\n");
+
+    printf("Análise com vetor de elementos já ordenados em ordem decrescente\n\n");
+    printf("ALGORITMOS \t TEMPO(ms)\n");
     _heap = analisaOrdenadoDHeap(tamanho);
-    printf("\nHeapSort: \t%f ms\n",_heap);
+    printf("HeapSort: \t%f ms\n",_heap);
 
     _bubble = analisaOrdenadoDBubble(tamanho);
     printf("BubbleSort: \t%f ms\n",_bubble);
