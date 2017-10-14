@@ -131,7 +131,7 @@
 	<locale.h>
 	"libPrincipal.h"
 
-1508016269 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\libprincipal.cpp
+1508023441 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\libprincipal.cpp
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -153,7 +153,7 @@
 
 1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\insertionsort.h
 
-1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.h
+1508021865 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.h
 
 1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\selectionsort.h
 
@@ -161,7 +161,7 @@
 
 1508008418 e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\mergesort.h
 
-1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\main.cpp
+1508019753 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\main.cpp
 	<stdio.h>
 	<stdlib.h>
 	<locale.h>
@@ -185,7 +185,7 @@
 	<stdio.h>
 	"mergeSort.h"
 
-1508008418 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.cpp
+1508021874 source:e:\documents\ifsp\ads\modulo iii\ed2 - estrutura de dados ii\aula 09 10-04 - projeto experimental - avaliação de algoritmos de ordenação\projetofinal\algoritmosdeordenacao\algoritmosordenacao\quicksort.cpp
 	<stdio.h>
 	<stdlib.h>
 	"quickSort.h"

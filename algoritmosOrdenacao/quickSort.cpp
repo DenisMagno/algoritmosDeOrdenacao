@@ -2,48 +2,33 @@
 #include <stdlib.h>
 #include "quickSort.h"
 
-int particiona (int *v, int inicio, int fim){
-    int esq, dir, pivo, aux;
-    esq = inicio;
-    dir = fim;
-    pivo = v[inicio];
+void quickSort(int *a, int left, int right) {
+    int i, j, x, y;
 
-    while(esq < dir) {
-        while(v[esq]<= pivo){         //enquanto V[inicio] <= pivo ,
-          esq ++;                           //   incrementa esq
-        }
-        while(v[dir] > pivo){
-            dir--;
-        }
-        if(esq < dir){
-            aux = v[esq];           // Troca dir e esq
-            v[esq] = v[dir];
-            v[dir] = aux;
+    i = left;
+    j = right;
+    x = a[(left + right) / 2];
 
+    while(i <= j) {
+        while(a[i] < x && i < right) {
+            i++;
         }
-
+        while(a[j] > x && j > left) {
+            j--;
+        }
+        if(i <= j) {
+            y = a[i];
+            a[i] = a[j];
+            a[j] = y;
+            i++;
+            j--;
+        }
     }
 
-    v[inicio] = v[dir];
-    v[dir] = pivo;                  // trocam inicio e dir de lugar
-    return dir;
-
-
+    if(j > left) {
+        quickSort(a, left, j);
+    }
+    if(i < right) {
+        quickSort(a, i, right);
+    }
 }
-
-void quickSort(int *v, int inicio, int fim){
-    int pivo;
-
-        if(fim > inicio){
-            pivo = particiona(v, inicio, fim);    // chama a funcao particiona
-            quickSort(v, inicio, pivo-1);
-            quickSort(v, pivo+1, fim);
-        }
-}
-
-
-
-
-
-
-

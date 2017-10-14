@@ -708,6 +708,7 @@ void analisaAlgoritmos(int tamanho){
     aguarda_enter();
 
     system("cls");
+    printf("Quantidade de elementos inseridos: %d\n\n", tamanho);
     printf("Análise com vetor de elementos inseridos randômicamente\n\n");
     printf("ALGORITMOS \t TEMPO MÉDIO(ms)\n");
     double _heap = analisaHeap(tamanho);
@@ -744,8 +745,8 @@ void analisaAlgoritmos(int tamanho){
     _insertion = analisaOrdenadoCInsertion(tamanho);
     printf("InsertionSort: \t%.4f ms\n",_insertion);
 
-    /*_quick = analisaOrdenadoCQuick(tamanho);
-    printf("QuickSort: \t%.4f ms\n",_quick);*/
+    _quick = analisaOrdenadoCQuick(tamanho);
+    printf("QuickSort: \t%.4f ms\n",_quick);
 
     _selection = analisaOrdenadoCSelection(tamanho);
     printf("SelectionSort: \t%.4f ms\n",_selection);
@@ -769,8 +770,8 @@ void analisaAlgoritmos(int tamanho){
     _insertion = analisaOrdenadoDInsertion(tamanho);
     printf("InsertionSort: \t%.4f ms\n",_insertion);
 
-    /*_quick = analisaOrdenadoDQuick(tamanho);
-    printf("QuickSort: \t%.4f ms\n",_quick);*/
+    _quick = analisaOrdenadoDQuick(tamanho);
+    printf("QuickSort: \t%.4f ms\n",_quick);
 
     _selection = analisaOrdenadoDSelection(tamanho);
     printf("SelectionSort: \t%.4f ms\n",_selection);
