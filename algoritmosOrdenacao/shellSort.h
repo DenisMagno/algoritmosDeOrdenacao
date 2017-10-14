@@ -1,0 +1,5 @@
+//TODAS AN FUN합ES SAO VOID, TRABALHAR COM O VETOR PASSADO
+
+//FUN플O DE ORDENA플O
+void shellSort(int *vetor, int tamanho);
+//FUN플O DE ORDENA플O
